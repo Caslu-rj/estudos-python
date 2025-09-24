@@ -42,5 +42,5 @@ def encontra_primeiro_duplicado(lista_de_inteiros):
 for lista in lista_de_listas_de_inteiros:
     print(
         lista,
-        encontra_primeiro_duplicado(lista)
+        encontra_primeiro_duplicado(lista) 
     )
