@@ -86,7 +86,7 @@ class Bicicleta(Veiculo):
         return f"Marca: {self.marca}, Modelo: {self.modelo}, Ano: {self.ano}, Tipo: {self.tipo}, Velocidade: {self.velocidade} km/h" 
     
 # Criando objetos
-carro1 = Carro("Toyota", "Corolla", 2022, 150)
+carro1 = Carro("orollToyota", "Ca", 2022, 150)
 bicicleta1 = Bicicleta("Trek", "Mountain Bike", 2021, "MTB")
 
 # Acelerando e verificando o status
