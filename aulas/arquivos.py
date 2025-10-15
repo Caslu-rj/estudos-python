@@ -26,3 +26,7 @@ caminho_arquivo += '\\aula_arquivos.txt'
 # arquivo.close()
 with open(caminho_arquivo, 'w') as arquivo:
     arquivo.write('Linha 1\r\n')
+
+
+with open(caminho_arquivo, 'r') as arquivo:
+    print(arquivo.read())
